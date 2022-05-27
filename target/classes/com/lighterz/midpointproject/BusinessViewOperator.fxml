@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="777.0" prefWidth="807.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lighterz.midpointproject.BusinessViewOperatorController">
+    <children>
+        <VBox prefHeight="777.0" prefWidth="878.0" style="-fx-background-color: #0589FF; -fx-alignment: center;">
+            <children>
+                <ImageView cache="true" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../images/warehouse.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </VBox>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="779.0" prefWidth="483.0">
+            <children>
+                <Label alignment="CENTER" layoutX="24.0" layoutY="128.0" lineSpacing="1.0" prefHeight="220.0" prefWidth="446.0" text="Tafadhari weka Jina La Muangalizi Wa Leo Wa Midpoint Company" wrapText="true">
+                    <font>
+                        <Font name="System Bold" size="36.0" />
+                    </font>
+                </Label>
+                <AnchorPane layoutX="19.0" layoutY="390.0" prefHeight="229.0" prefWidth="446.0">
+                    <children>
+                        <JFXTextArea fx:id="USER_NAME_OPERATOR_ID" focusColor="#0589ff" labelFloat="true" layoutX="15.0" layoutY="27.0" prefHeight="52.0" prefWidth="416.0" wrapText="true">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </JFXTextArea>
+                        <JFXButton layoutX="14.0" layoutY="115.0" onAction="#input_validation" prefHeight="40.0" prefWidth="428.0" style="-fx-background-color: #0589FF; -fx-background-radius: 5em;" text="INGIA" textFill="WHITE" wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../icons/door_icons.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                        </JFXButton>
+                    </children>
+                </AnchorPane>
+                <Label fx:id="VALIDATION_MSG_ID" alignment="CENTER" layoutX="45.0" layoutY="586.0" prefHeight="40.0" prefWidth="416.0" />
+                <Label fx:id="APP_VERSION_ID" layoutX="210.0" layoutY="748.0" prefHeight="17.0" prefWidth="91.0" text="\@MidPoint 0.0.1" textAlignment="CENTER" wrapText="true" />
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>

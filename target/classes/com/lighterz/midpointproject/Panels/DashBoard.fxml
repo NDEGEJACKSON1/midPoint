@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="834.0" styleClass="shadow" stylesheets="@../../../../styles/stylesheet.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="57.0" prefWidth="179.0" style="-fx-alignment: center;" text="MAPATO YA LEO" wrapText="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <HBox layoutX="14.0" layoutY="64.0" prefHeight="180.0" prefWidth="792.0" spacing="11.0">
+         <children>
+            <VBox prefHeight="268.0" prefWidth="190.0" style="-fx-background-color: #FFF;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="TOP" graphicTextGap="7.0" prefHeight="243.0" prefWidth="179.0" style="-fx-alignment: center;" text="50" wrapText="true">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="104.0" fitWidth="114.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../icons/orders_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets bottom="-16.0" right="-2.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="21.0" prefWidth="240.0" style="-fx-alignment: center;" text="Bidhaa zilizouzwa">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            <VBox layoutX="10.0" layoutY="10.0" prefHeight="268.0" prefWidth="190.0" style="-fx-background-color: #FFF; -fx-border-radius: 10 10 0 0;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="TOP" graphicTextGap="7.0" prefHeight="243.0" prefWidth="179.0" style="-fx-alignment: center;" text="50" wrapText="true">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="104.0" fitWidth="114.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../icons/money_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets bottom="-16.0" right="-2.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="21.0" prefWidth="226.0" style="-fx-alignment: center;" text="Pesa iliyopatikana">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            <VBox layoutX="200.0" layoutY="10.0" prefHeight="268.0" prefWidth="190.0" style="-fx-background-color: #FFF; -fx-border-radius: 10 10 0 0;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="TOP" graphicTextGap="7.0" prefHeight="243.0" prefWidth="179.0" style="-fx-alignment: center;" text="50" wrapText="true">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="104.0" fitWidth="114.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../icons/customers_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets bottom="-16.0" right="-2.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="21.0" prefWidth="205.0" style="-fx-alignment: center;" text="Idadi ya Wateja">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            <VBox layoutX="390.0" layoutY="10.0" prefHeight="268.0" prefWidth="190.0" style="-fx-background-color: #FFF; -fx-border-radius: 10 10 0 0;">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="TOP" graphicTextGap="7.0" prefHeight="243.0" prefWidth="179.0" style="-fx-alignment: center;" text="50" wrapText="true">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="104.0" fitWidth="114.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../icons/moneyProfit_icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets bottom="-16.0" right="-2.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="21.0" prefWidth="194.0" style="-fx-alignment: center;" text="Faida iliyopatikana">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+         </children>
+      </HBox>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="249.0" prefHeight="48.0" prefWidth="229.0" text="BIDHAA AMBAZO ZIPO" wrapText="true">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <JFXTreeTableView currentItemsCount="6" editable="true" fixedCellSize="1.0" layoutX="14.0" layoutY="292.0" prefHeight="445.0" prefWidth="792.0">
+         <columns>
+            <TreeTableColumn minWidth="190.0" prefWidth="120.0" text="Jina La Bidhaa" />
+            <TreeTableColumn minWidth="150.0" prefWidth="75.0" text="Tarehe ya Mzigo Kuletwa" />
+            <TreeTableColumn prefWidth="150.0" text="Idadi Iliyobaki" />
+            <TreeTableColumn minWidth="150.0" prefWidth="75.0" text="Bei Ya Bidhaa" />
+            <TreeTableColumn minWidth="150.0" prefWidth="75.0" text="Bei Ya Kiwandani" />
+         </columns>
+      </JFXTreeTableView>
+      <JFXButton layoutX="634.0" layoutY="745.0" prefHeight="41.0" prefWidth="172.0" style="-fx-background-color: #0589FF; -fx-background-radius: 5EM;" text="Ongeza Bidhaa" textFill="#fffefe">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../icons/addProduct_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="745.0" prefHeight="41.0" prefWidth="172.0" style="-fx-background-color: #0589FF; -fx-background-radius: 5EM;" text="Toa Bidhaa" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../icons/removeProduct_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>
